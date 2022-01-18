@@ -1,0 +1,106 @@
+body {
+	background-color: #eceffc;
+}
+
+body,
+input {
+	font: 1em "Open Sans", sans-serif;
+	color: #363639;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px dashed #363639;
+}
+
+/* List */
+
+.list {
+	background-color: #fff;
+	margin: 20px auto;
+	width: 100%;
+	max-width: 500px;
+	padding: 20px;
+	border-radius: 2px;
+	box-shadow: 4px 4px 2px rgba(0, 0, 0, .1);
+	box-sizing:border-box;
+}
+
+.list .header {
+	font-family: "Shadows Into Light Two", cursive;
+	margin:0 0 10px 0;
+}
+
+.header {
+	text-align: center;
+}
+
+/* Items */
+.items {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.items li:hover .done-button {
+	opacity: 1;
+}
+
+
+.items .item-done {
+	text-decoration: line-through;
+}
+
+.items li, 
+.item-add .input {
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0;
+}
+
+.input:focus {
+	outline: none;
+}
+
+
+.adder {
+	background-color: #fff;
+	margin: 20px auto;
+	width: 100%;
+	max-width: 500px;
+	padding: 20px;
+	border-radius: 2px;
+	box-shadow: 4px 4px 2px rgba(0, 0, 0, .1);
+	box-sizing:border-box;
+}
+
+
+/* Done button */
+.done-button {
+	display: inline-block;
+	font-size: 0.7em;
+	background-color: #d9dfe1;
+	color: #363639;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.4;
+}
+
+/* Delete button */
+.delete-button {
+	display: right-block;
+	font-size: 1.3em;
+	color: #e3433d;
+	padding: 3px 6px;
+	border: 0;
+}
+
+/* Submit button */
+.submit {
+	background-color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	width: 100%;
+	margin-top: 10px;
+	box-shadow: 3px 3px 0 #ddd;
+}
